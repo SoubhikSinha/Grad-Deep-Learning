@@ -13,6 +13,9 @@ The above might sound a bit ironic — some parts might feel like a tall tale, b
 
 In this repository, you'll find practical implementations of various deep learning concepts, demonstrating how the theoretical components come to ***life in action***.
 <br>
+> NOTE : The programming language used here (i.e., in every jupyter notebook) is **Python**, as it is the most widely used in the industry.
+> 
+<br>
 <br>
 
 ### **[Data Analysis, ML Models and PyTorch](https://github.com/sricks404/Grad-Deep-Learning/blob/main/Data%20Analysis.%20ML%20Models%20and%20PyTorch.ipynb)** 👇<br>
