@@ -129,8 +129,8 @@ This notebook will demonstrate the implementation of a Neural Network using **Py
 		> NOTE🔻 
 			1. The model was trained on GPU. You can do the same on your local system if you have GPU Installed in it (e.g. NVIDIA GTX 1050 on a Windows Machine).
 			2. If you want to do so, you may follow the tutorial :   ***["How to setup CUDA GPU for PyTorch on a Windows Machine"](https://www.youtube.com/watch?v=r7Am-ZGMef8&pp=ygUTQ1VEQSBHUFUgd2luZG93cyAxMQ%3D%3D)***
-			3. It's completely alright if you do not want to take the hassle of setting up GPU for PyTorch on your local system (like me !). There are alternatives🔻
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A. [Google Colab](https://colab.research.google.com/) has numerous GPU / computation accelerator options. [**LINK**](https://www.geeksforgeeks.org/how-to-use-gpu-in-google-colab/#)
+			3. It's completely alright if you do not want to take the hassle of setting up GPU for PyTorch on your local system (like me !). There are alternatives🔻<br>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A. [Google Colab](https://colab.research.google.com/) has numerous GPU / computation accelerator options. [**LINK**](https://www.geeksforgeeks.org/how-to-use-gpu-in-google-colab/#)<br>
 			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;B. [Kaggle](https://www.kaggle.com/) is also an option to explore !!! [**LINK**](https://www.kaggle.com/code)
 
 <br>
