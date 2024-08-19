@@ -159,3 +159,66 @@ This notebook will demonstrate the implementation of a Neural Network using **Py
 <br>
 <br>
 <br>
+
+### **[CNN Classification (VGGNet)]()** 👇<br>
+
+Before diving into the contents of the notebook, let's cover some theoretical aspects of CNNs (Convolutional Neural Networks)🔻<br>
+> A **Convolutional Neural Network (CNN)** is a type of deep learning model designed primarily for processing structured grid data like images. CNNs work by automatically and adaptively learning spatial hierarchies of features through the application of convolutional operations. These networks consist of layers that apply filters (kernels) to input data, which helps in detecting patterns like edges, textures, and more complex shapes in deeper layers. Key components include convolutional layers, pooling layers (for downsampling), and fully connected layers (for classification). CNNs are widely used in computer vision tasks such as image classification, object detection, and facial recognition due to their ability to capture spatial relationships in data efficiently.
+
+<br>
+
+There are different architectures of CNN. In this notebook, you will particularly oberve the implementation of **[VGGNet](https://viso.ai/deep-learning/vgg-very-deep-convolutional-networks/)** 🔻<br>
+> VGGNet is a convolutional neural network architecture introduced by the Visual Geometry Group at the University of Oxford in 2014, known for its simplicity and effectiveness in image recognition tasks. The architecture is characterized by its uniform use of small 3x3 convolutional filters across all layers, allowing it to capture complex features while maintaining computational efficiency. VGGNet is deep, with popular versions like **VGG16 and VGG19** containing **16 and 19 layers**, respectively, alternating between convolutional and max-pooling layers. This deep structure, combined with fully connected layers at the end, enables VGGNet to achieve high accuracy in image classification tasks. However, its depth and the use of fully connected layers lead to high computational costs and a large number of parameters, making it memory-intensive and prone to overfitting, especially on smaller datasets. Despite these limitations, VGGNet remains a foundational model in deep learning, serving as a baseline for many subsequent architectures.
+
+<br>
+
+If you want to check out the architectures of different VGG versions, you can refer to this research paper : **[Very Deep Convolutional Networks for Large-Scale Image Recognition](https://arxiv.org/abs/1409.1556)**
+<br>
+<br>
+
+Now, let's see the steps taken for the implementation of the VGG-13 version🔻<br>
+
+ - Data Preprocessing🔻
+	 - Reading data
+	 - Preprocessing data
+	 - Preprocessing steps🔻
+		 - Image Normalization
+		 - Label Encoding & One-Hot Encoding
+	- Main Statistics🔻
+		- Mean
+		- Standard Deviation
+		- Data Distribution
+	- Data Visualization
+
+<br>
+
+- VGG-13 (Version B) implementation
+
+<br>
+
+- Model Training
+
+<br>
+
+-  Applying Hyperparameter Tuning techniques🔻
+	- Regularization (L1/L2)
+	- Dropout
+	- Early Stopping
+	- Image Augmentation
+
+<br>
+
+- Saving the weights of the model which gave the best results
+
+<br>
+
+- Discussing the results and providing relevant graphs for comparison and analysis🔻
+	 - Analysis of Evaluation metrics like - Training Accuracy, Training Loss, Validation Accuracy, Validation Loss, Testing Accuracy and Testing Loss
+	 - Plotting (per epoch) - Training **vs** Validation Accuracy
+	 - Plotting (per epoch) - Training **vs** Validation Loss
+	 - Confusion Matrix on mode's prediction of test set
+	 - Model Performace report on other metrics : Precision, Recall (Sensitivity) and F1-Score.
+
+<br>
+<br>
+<br>
