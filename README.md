@@ -223,3 +223,16 @@ Now, let's see the steps taken for the implementation of the VGG-13 version🔻<
 <br>
 <br>
 
+### [Implementing ResNet Architecture](https://github.com/sricks404/Grad-Deep-Learning/blob/main/ResNet%20Implementation.ipynb) 👇<br>
+
+Let us first understand a but about **ResNet Architecture** 🔻<br>
+> <b>NOTE : </b>  ResNet, or Residual Network, is a deep learning architecture that uses skip connections, allowing the network to learn residuals between layers rather than full transformations. This helps train very deep networks efficiently without vanishing gradient issues. Each "residual block" passes the input through a few layers and adds it back to the output, making learning smoother. ResNet comes in various depths, such as ResNet-18, ResNet-50, and ResNet-101, with deeper versions using bottleneck blocks to reduce computational cost. It's widely used in tasks like image classification and object detection due to its high accuracy and scalability.
+
+<br>
+
+In this **ResNet** Implementation, we will be using the same dataset we used for **VGGNet**, shown above. Let us observe the steps taken to carry out the implementation of ResNet🔻
+
+ - Implementing residual blocks of ResNet, including convolutional layers, batch normalization, ReLU activation, and residual connections - using **nn.Conv2d, nn.BatchNorm2d, nn.Sequential** and **nn.Identity**.
+ - Designing a **ResNet-18** model : configuration with 18-layer. You can view the [Original ResNet Paper](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://arxiv.org/pdf/1512.03385) for having a reference.
+ -  Training the model on the dataset that was used in the implementation of **VGGNet** Architecture.
+ - 
