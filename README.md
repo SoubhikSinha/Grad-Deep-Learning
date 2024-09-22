@@ -160,7 +160,7 @@ This notebook will demonstrate the implementation of a Neural Network using **Py
 <br>
 <br>
 
-### **[CNN Classification (VGGNet)]()** 👇<br>
+### **[CNN Classification (VGGNet)](https://github.com/sricks404/Grad-Deep-Learning/blob/main/CNN%20Classification%20(VGGNet).ipynb)** 👇<br>
 
 Before diving into the contents of the notebook, let's cover some theoretical aspects of CNNs (Convolutional Neural Networks)🔻<br>
 > A **Convolutional Neural Network (CNN)** is a type of deep learning model designed primarily for processing structured grid data like images. CNNs work by automatically and adaptively learning spatial hierarchies of features through the application of convolutional operations. These networks consist of layers that apply filters (kernels) to input data, which helps in detecting patterns like edges, textures, and more complex shapes in deeper layers. Key components include convolutional layers, pooling layers (for downsampling), and fully connected layers (for classification). CNNs are widely used in computer vision tasks such as image classification, object detection, and facial recognition due to their ability to capture spatial relationships in data efficiently.
@@ -223,4 +223,3 @@ Now, let's see the steps taken for the implementation of the VGG-13 version🔻<
 <br>
 <br>
 
-# ⚠️ README.md under construction
