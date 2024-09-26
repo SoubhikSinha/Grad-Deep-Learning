@@ -129,9 +129,9 @@ This notebook will demonstrate the implementation of a Neural Network using **Py
  - Building a Neural Network
 	- Including Convolutional Layers and Fully Connected (FC) Layers
 	- Introduction of Activation Functions after each layer to introduce *"Non-Linearity"*
-		> NOTE🔻 
-			1. The model was trained on GPU. You can do the same on your local system if you have GPU Installed in it (e.g. NVIDIA GTX 1050 on a Windows Machine).
-			2. If you want to do so, you may follow the tutorial :   ***["How to setup CUDA GPU for PyTorch on a Windows Machine"](https://www.youtube.com/watch?v=r7Am-ZGMef8&pp=ygUTQ1VEQSBHUFUgd2luZG93cyAxMQ%3D%3D)***
+		> NOTE🔻 <br>
+			1. The model was trained on GPU. You can do the same on your local system if you have GPU Installed in it (e.g. NVIDIA GTX 1050 on a Windows Machine).<br>
+			2. If you want to do so, you may follow the tutorial :   ***["How to setup CUDA GPU for PyTorch on a Windows Machine"](https://www.youtube.com/watch?v=r7Am-ZGMef8&pp=ygUTQ1VEQSBHUFUgd2luZG93cyAxMQ%3D%3D)***<br>
 			3. It's completely alright if you do not want to take the hassle of setting up GPU for PyTorch on your local system (like me !). There are alternatives🔻<br>
 			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A. [Google Colab](https://colab.research.google.com/) has numerous GPU / computation accelerator options. [**LINK**](https://www.geeksforgeeks.org/how-to-use-gpu-in-google-colab/#)<br>
 			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;B. [Kaggle](https://www.kaggle.com/) is also an option to explore !!! [**LINK**](https://www.kaggle.com/code)
@@ -234,5 +234,18 @@ In this **ResNet** Implementation, we will be using the same dataset we used for
 
  - Implementing residual blocks of ResNet, including convolutional layers, batch normalization, ReLU activation, and residual connections - using **nn.Conv2d, nn.BatchNorm2d, nn.Sequential** and **nn.Identity**.
  - Designing a **ResNet-18** model : configuration with 18-layer. You can view the [Original ResNet Paper](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://arxiv.org/pdf/1512.03385) for having a reference.
- -  Training the model on the dataset that was used in the implementation of **VGGNet** Architecture.
- - 
+ -  Training the model on the dataset that was used in the implementation of **VGGNet** Architecture (see above 👆).
+ - Applying techniques to prevent overfitting to improve the results.
+ - Saving the weights of the trained neural network that provides the best results.
+ - Discussing the results and providing relevant graphs🔻
+	 - Reporting training accuracy, training loss, validation accuracy, validation loss, testing accuracy, and testing loss.
+	 - Plotting the training and validation accuracy over time (epochs).
+	 - Plotting the training and validation loss over time (epochs).
+	 - Generating a confusion matrix using the model's predictions on the test set.
+	 - Calculating and reporting other evaluation metrics such as Precision, Recall and F1-score.
+
+<br>
+<br>
+<br>
+
+# ⚠️ README.md under construction !!!
